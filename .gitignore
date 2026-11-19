@@ -1,0 +1,56 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Packaging / install artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# Local / debug captures
+tmp_*.png
+*.tmp.png
+/tmp/
+
+# OCR fixtures — keep local; not published
+tests/fixtures/
+
+# Collins / Scrabble word lists (copyrighted; obtain locally — see README)
+gamepigeon/words/data/*.txt
+
+# OS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
